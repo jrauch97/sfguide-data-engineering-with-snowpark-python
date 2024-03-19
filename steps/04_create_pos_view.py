@@ -103,7 +103,6 @@ def test_pos_view(session):
     tv = session.table('POS_FLATTENED_V')
     tv.limit(5).show()
 
-
 # For local debugging
 if __name__ == "__main__":
     # Create a local Snowpark session
